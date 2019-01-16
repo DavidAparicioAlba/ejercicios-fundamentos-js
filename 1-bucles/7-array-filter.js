@@ -35,3 +35,5 @@ let gente = [{
     },
 ]
 
+const personasJMayor = gente.filter(persona => persona.nombre.charAt(0)==='J' && persona.edad<40);
+console.log(personasJMayor);

@@ -33,3 +33,6 @@ let gente = [{
     },
 ]
 
+
+const losmas4 = gente.filter(persona => persona.nombre.length===4);
+console.log(losmas4);

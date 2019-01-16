@@ -33,3 +33,13 @@ let gente = [{
         edad: 10
     },
 ]
+
+let losJ = [];
+
+for (let persona of gente){
+    if (persona.nombre.charAt(0)=='J'){
+        losJ.push(persona);
+    }
+}
+
+console.log(losJ);

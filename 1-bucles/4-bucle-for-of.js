@@ -35,8 +35,9 @@ let gente = [{
 ]
 
 let mayor=[];
-for( nombre of gente){
-    if (edad>25){
-        mayor.push()
+for(let persona of gente){
+    if (persona.edad>25){
+        mayor.push(persona)
     }
 }
+console.log(mayor);
