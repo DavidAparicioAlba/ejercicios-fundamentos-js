@@ -6,6 +6,7 @@
 
 // Aquí tu código
 
+let arr = [a={name: 'pepito', age: 25},b={ name: 'pepito', age: 26},c={name: 'J', age:24}]
 
 // Hasta aquí
 
