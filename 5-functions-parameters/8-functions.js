@@ -8,6 +8,14 @@
 
 // Aquí tu código
 
+let convierteEurosEnPesetas = (euro) => {
+    if (typeof euro == 'number'){
+        return euro*168;
+    }
+    else{
+        throw new Error('convierteEurosEnPesetas debe recibir un number');
+    }
+}
 // Hasta aquí
 
 

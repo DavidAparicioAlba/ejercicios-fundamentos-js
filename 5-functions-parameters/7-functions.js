@@ -8,6 +8,9 @@
 
 // Aquí tu código
 
+let convierteEurosEnPesetas = (euro) => {
+    return euro*168;
+}
 
 // Hasta aquí
 
