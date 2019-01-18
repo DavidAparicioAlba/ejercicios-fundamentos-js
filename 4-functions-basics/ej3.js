@@ -10,7 +10,19 @@
 
 let caracterInicial = (texto) => {
     // Aquí tu código.  Desde aquí:
-    
+
+    if (typeof texto =='string'){
+        console.log(texto.length)
+        if (texto===''){
+            console.log(texto.length)
+            return 'Debo ser ejecutada con un string no vacío';
+        } else {
+            return texto.charAt(0);
+        }
+    } else {
+        return 'Debo ser ejecutada con un string';
+    }
+
     // Hasta aquí.
 }
 
